@@ -1,15 +1,10 @@
+## PR Checklist
 ### Common
-
-| |Summary| 
-|--|---------|
-| - [ ] | All the general, non-component-dependent constants used in a component are kept in nearest const file |
-| - [ ] | All the global constants used across many components are kept in global const file |
-| - [ ] | All the general, non-component-dependent functions used in a component are kept in nearest utils file |
-| - [ ] | All the global functions across many components are kept in global utils file |
-| - [ ] | There are no used consts, functions, components, imports, etc |
-
-### JS
-(TBD)
+- [ ] All the general, non-component-dependent constants used in a component are kept in nearest const file
+- [ ] All the global constants used across many components are kept in global const file
+- [ ] All the general, non-component-dependent functions used in a component are kept in nearest utils file
+- [ ] All the global functions across many components are kept in global utils file
+- [ ] There are no used consts, functions, components, imports, etc
 
 ### React
 - [ ] Prop-drilling is avoided and replaced by store
@@ -22,4 +17,4 @@
 
 ### Unit test
 - [ ] Unit test cases are added for all the changes made in this PR
-- [ ] Skipped test cases have a TODO comment with justificaiton for skipping
+- [ ] Skipped test cases (using xit()) have a TODO comment with justificaiton for skipping
